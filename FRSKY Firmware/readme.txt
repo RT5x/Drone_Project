@@ -1,26 +1,24 @@
 
 *******************************Release Note******************************************
 
-This Package is for R-XSR ACCESS v2.1.8 firmware update. 
+This Package is for ACCST firmware update for RXSR, F.PORT firmware included. 
 
 Version and Files: 
-
-RXSR_ACCESS_2.1.8.frsk                          Upgrade file for R-XSR
-readme.txt                                              Release note 
+RXSR_FCC_ACCST_191112.frk                            Firmware under NonLbt mode which is certificated for FCC rules.
+RXSR_LBT_ACCST_191112.frk                             Firmware under LBT mode which is certificated for CE rules.
+RXSR-FPORT_FCC_ACCST_191128.frk                F.PORT version firmware under NonLbt mode which is certificated for FCC rules.
+RXSR-FPORT_LBT_ACCST_191128.frk                 F.PORT version firmware under LBT mode which is certificated for CE rules.
+readme.txt                                                           Release note 
  
-Firmware Version: v2.1.8
+Firmware Version: v191112
+F.Port Firmware Version:v191128
 
-The released firmware changes are as below:
+The release firmware resolved the issues below:
 --------------------------------------------------------------------------------------------------------------------
-1. Fixed the issue of no PWM output in the S.Port link caused by abnormal conditions such as unregular data sent by unknown devices in connection or exceeding the limitation of devices connected in the system (up to 27). 
-Note: Please make sure the involved Receiver [Archer series (except for RS), R-XSR, RXSR-FC, RX4R, RX6R, G-RX6, G-RX8] or Transmitter [ISRM-N, ISRM-Pro, ISRM-S series RF module] in using have been both upgraded with this update or later version.
--------------------------------------------------------------------------------------------------------------------
-How to update receiver firmware :
-https://www.frsky-rc.com/how-to-use-the-transmitter-to-flash-the-firmware-of-the-x8r-receiver/
+-Fixed the problem of abnormal high frame loss rate.
 
--------------------------------------------------------------------------------------------------------------------
-More details please check FrSky website:
-https://www.frsky-rc.com/frsky-advanced-communication-control-elevated-spread-spectrum-access-protocol-release/
+
+More details please check the link below on FrSky website.
 https://www.frsky-rc.com/product/r-xsr/
 
 **********************All rights reserved to FrSky Electronic ., Ltd.*********************************
